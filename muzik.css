@@ -20,29 +20,109 @@ body{
     position: absolute;
     background-color: #b8c0ff;
     width: 400px;
-    height: 400px;
+    height: 500px;
     padding: 10px;
     box-sizing: border-box;
-    left: 50%;
+    left: 70%;
     top: 20%;
     bottom: 20%;
     text-align: center;
     border-radius: 5%;
-
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(40, 56, 86);
 }
 
-#album {
+#albumlover {
     position: fixed;
-    border-radius: 50%;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK73mSdciTNm1Yt0UXiNE7l-WrsoQDJkMMzBZaYlwSI6QXRyxPwfxI57GbYlqinyHITbk&usqp=CAU);
+    background: url(https://upload.wikimedia.org/wikipedia/tr/c/cd/Taylor_Swift_-_Lover.png);
     background-size: cover;
     height: 400px;
     width: 400px;
     padding: 10px;
     box-sizing: border-box;
-    top: 20%;
-    left:-200px;
+    bottom: -300px;
+    left:0px;
+    box-shadow: 5px 5px 10px rgba(255, 249, 73, 0.793);
+    z-index: 5;
+    transition: all 1s;
+}
+
+#albumspeaknow {
+    position: fixed;
+    background: url(https://i.scdn.co/image/ab67616d0000b2730b04da4f224b51ff86e0a481);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: -300px;
+    left:100px;
+    box-shadow: 5px 5px 10px rgba(47, 23, 58, 0.793);
+    z-index: 4;
+    transition: all 1s;
+}
+
+#albumfearless {
+    position: fixed;
+    background: url(https://hips.hearstapps.com/hmg-prod/images/148022559-884819482089040-4676896142298036016-n-1613146852.jpg?crop=0.850xw:0.850xh;0.129xw,0.111xh&resize=1200:*);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: -300px;
+    left:200px;
+    box-shadow: 5px 5px 10px rgba(217, 122, 5, 0.793);
+    z-index: 3;
+    transition: all 1s;
+}
+
+#plaklover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTRAQUIU3IdQ_Cs5MivH03Ygy6YM1H7PcESg&usqp=CAU);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: -300px;
+    left:0px;
     animation: rotate 5s linear infinite;
-    box-shadow: 5px 5px 10px rgba(136, 5, 217, 0.793);
+    position: fixed;
+    z-index: 2;
+    transition: all 1s;
+}
+
+#plakspeaknow{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTRAQUIU3IdQ_Cs5MivH03Ygy6YM1H7PcESg&usqp=CAU);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: -300px;
+    left:100px;
+    animation: rotate 5s linear infinite;
+    position: fixed;
+    z-index: 2;
+    transition: all 1s;
+}
+
+#plakfearless{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTRAQUIU3IdQ_Cs5MivH03Ygy6YM1H7PcESg&usqp=CAU);
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: -300px;
+    left:200px;
+    animation: rotate 5s linear infinite;
+    position: fixed;
+    z-index: 2;
+    transition: all 1s;
 }
 
