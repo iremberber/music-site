@@ -124,5 +124,90 @@ body{
     position: fixed;
     z-index: 2;
     transition: all 1s;
+    scrollbar-width: none;
+}
+
+#Lyric::-webkit-scrollbar {
+    opacity: 0;
+  }
+
+  #Lyric{
+    position: absolute;
+    background-color: #b8c0ff;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    left: 44%;
+    top: 20%;
+    bottom: 20%;
+    text-align: center;
+    border-radius: 5%;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(40, 56, 86);
+    overflow:auto;
+    scrollbar-width:thin;
+}
+
+#loverlyric{
+    position: absolute;
+    background-color: #b8c0ff;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: 20%;
+    top: 0%;
+    text-align: center;
+    border-radius: 5%;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(40, 56, 86);
+    overflow:auto;
+    scrollbar-width:thin;
+    display: none;
+    transition: all 1s;
+}
+
+#speaknowlyric{
+    position: absolute;
+    background-color: #b8c0ff;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: 20%;
+    top: 0%;
+    text-align: center;
+    border-radius: 5%;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(40, 56, 86);
+    overflow:auto;
+    scrollbar-width:thin;
+    display:none;
+    transition: all 1s;
+}
+
+
+#fearlesslyric{
+    position: absolute;
+    background-color: #b8c0ff;
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    bottom: 20%;
+    top: 0%;
+    text-align: center;
+    border-radius: 5%;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(40, 56, 86);
+    overflow:auto;
+    scrollbar-width:thin;
+    display: none;
+    transition: all 1s;
 }
 
